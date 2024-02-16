@@ -1,0 +1,80 @@
+datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -1ch;
+    margin-right: -1ch;
+    text-align: center;
+}
+
+option {
+    padding: 0px;
+    width: 4ch;
+    text-align: center;
+}
+
+input#k_range {
+    width: 100%;
+    margin: 0px;
+}
+
+div#k_extension
+{
+    /* background-color: #4fa06b; */
+    background-color: black;
+    color: white;
+    /*border-radius: 20px;*/
+    /*border: solid black 1px;*/
+    padding: 24px;
+    width: 600px;
+}
+
+div.speed_input, button#reset_button
+{
+    display:inline-block;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    background: #be8ab9;
+    color: black;
+    height: 100%;
+}
+
+div#reset_div
+{
+    display: inline-block;
+}
+
+button#reset_button
+{
+    border: none;
+    height: 100%;
+}
+
+button#reset_button:hover
+{
+    background: #cf9bca
+}
+
+button#reset_button:active
+{
+    background-color: #ad79a8;
+}
+
+div.speed_input>input
+{
+    width: 6ch;
+    border: none;
+    text-align: right;
+    background-color: inherit;
+}
+
+
+div#control_panel
+{
+    display:block;
+    margin-top: 16px;
+    text-align: right;
+}
